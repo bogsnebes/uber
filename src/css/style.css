@@ -1,0 +1,245 @@
+* {
+    font-family: Roboto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 13px 70px;
+    margin: 0;
+}
+
+.menu_item {
+    border-right: 2px dotted black;
+    padding-right: 26px;
+}
+
+.menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.subheader {
+    position: absolute;
+    height: 84px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader_logo {
+    margin-top: 16px;
+}
+
+.subheader_desc {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader_phone_desc {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader_phone_link {
+    margin-left: 2px;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader_btn {
+    display: block;
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: solid 0px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/bg top.jpg') center center/cover no-repeat;
+    padding-top: 151px;
+}
+
+.promo_header {
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+.promo_subheader {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    line-height: 35px;
+    margin: 0;
+}
+
+.promo_desc {
+    margin: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    margin: 118px auto;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: solid 0px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.78;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.causes {
+    min-height: 900px;
+}
+
+.advantages_rectangle {
+    display: block;
+    margin: 0 auto;
+    margin-top: 71px;
+    padding-top: 3px;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+}
+
+.advantages_text {
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.causes_header {
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+}
+
+.causes_icons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.causes_icon {
+    display: flex;
+}
+
+.causes_rectangle {
+    box-sizing: box-sizing;
+    margin: 0 auto;
+    margin-right: 26px;
+    padding: 25px 19px 22px 14px;
+    background-color: #1eacc7;
+    border-radius: 300px;
+}
+
+.causes_icon_desc {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #202020;  
+}
+
+.causes_icon_desc span {
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #1eacc7;
+}
+
+
+
